@@ -1,2 +1,16 @@
 # Jogos
-Jogos criados por duas pessoas em linguagem c.
+Jogos criados por duas pessoas em linguagem c. No mesmo código.
+
+Este projeto, desenvolvi junto com a minha dupla Gabriel Figueiredo 3 mini jogos na linguagem C para exercitar diversos
+conhecimentos de programação que estamos aprendendo agora no primeiro periodo da faculdade, o projeto consiste em um menu que contem as 3 opções de jogos como se fosse um arcade e tambem uma opção de sair, os 3 jogos são
+1 - Perguntas e respostas, 2 - Cobra na Caixa e 3 - Gousmas war.
+
+Dando uma breve contextualizada, o jogo 1 era um simples jogo de 5 perguntas e respostas que nos escolhemos por perguntas dos filmes Star Wars para que o usuario possa responder,
+a tela principal do jogo da as boas vindas ao usuario e apresenta a pergunta 1 seguida de 4 alternativas, de A ate D, dando a opção do usuario inserir sua resposta e então ele segue
+a mesma logica por todas as outras perguntas, e ao final, pergunta se o jogador que jogar novamente ou sair do jogo.
+
+O jogo 2 é o da Cobra na caixa, a história do jogo se passa dentro de uma tumba egípcia onde dois exploradores ficaram presos. No centro da sala, há cinco tumbas onde uma delas contém o botão para abrir a porta, enquanto uma outra esconde uma cobra mortal. A cada rodada, o local do botão e da cobra muda de tumba de forma aleatória, aumentando o desafio e a imprevisibilidade do jogo. Logo ao ser selecionado o jogo apresenta uma lista de 7 nomes e em seguida pede para o jogador 1 e 2 escolherem seus nomes apos isso, o jogo diz de quem vai ser o turno, do J1 ou do J2 em seguida pede para ele escolher um numero de 1 a 5, a maquina randomiza qual tumba guarda a cobra e o botão se um deles escolher uma tumba que tem a cobra, logo perde e o jogo finalizando perguntando se deseja jogar novamente ou se deseja sair para o menu, a mesma coisa acontece se um dos jogadores achar o botão e vencer.
+
+E o jogo 3 é o Gousmas War onde tambem é um jogo para dois jogadores e aqui eles controlam criaturas chamadas Gousmas, que podem se dividir e acumular fúria ao serem atacadas. Cada jogador inicia com duas Gousmas, cada uma com nível de fúria 1 quando uma Gousma ataca outra, adiciona todo o seu nível de fúria para a Gousma atacada, por exemplo, se a Gousma atacante tiver 3 de furia e a Gousma atacada tiver 1 de furia, apos o ataque a Gousma atacada ficara com 4 de furia no total, se uma Gousma atingir um nível de fúria maior que 5, ela se desintegra e fica zerada, porém o jogador pode optar por dividir uma Gousma, transferindo uma parte da fúria para uma nova Gousma, por exemplo, se o jogador tiver uma gousma com 1 de furia e outra com 4 ele pode escolher passar a quantidade de furia de uma para outra, neste caso a que tem 4 para a que tem 1, logo a Gousma de furia 1 pode ficar com 2, 3 ou 4 de furia apos a divisão dependendo da escolha, o jogador que perder suas duas Gousmas será derrotado e a tela de finalização do jogo sera exibida perguntando ao usuario se deseja jogar novamente ou sair.
+
+Por fim, gostaria de destacar que eu e Gabriel mudamos algumas nomeclaturas dos jogos para referencias de star wars, como por exemplono jogo da cobra na caixa mudamos para Jawas na caixa e o jogo Gousmas War mudamos para Wookiee Wars, também tivemos algumas dificuldades no desenvolvimento do terceiro jogo, especialmente na parte da divisão de furia das Gousmas, por isso pedimos auxilio para o Gemini nessa parte do nosso codigo, onde irei anexar neste repositorio a nossa conversa com ele.
