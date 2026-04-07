@@ -257,10 +257,18 @@ int main(int argc, char *argv[]) {
                 								}
             										}
 
-            				if (w1_p1 > 5) w1_p1 = 0;
-            				if (w2_p1 > 5) w2_p1 = 0;
-            				if (w1_p2 > 5) w1_p2 = 0;
-            				if (w2_p2 > 5) w2_p2 = 0;
+            				if (w1_p1 > 5){
+								w1_p1 = 0   
+									}
+            				if (w2_p1 > 5) {
+								w2_p1 = 0   
+							}
+            				if (w1_p2 > 5){
+								w1_p2 = 0
+									}
+            				if (w2_p2 > 5){
+								w2_p2 = 0
+									}
 
             					turno = 1 - turno; 
         		}
