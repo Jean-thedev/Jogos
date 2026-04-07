@@ -38,6 +38,7 @@ int main(int argc, char *argv[]) {
 			
 			else{
 				printf("\nResposta Errada\n\n");
+				printf("\n Resposta Certa era Luke\n");
 			}
 			
 			
@@ -53,6 +54,7 @@ int main(int argc, char *argv[]) {
 			
 			else{
 				printf("\nResposta Errada\n\n");
+				printf("\n Resposta Certa era Darth Vader\n");
 			}
 			
 			printf("Pergunta 3\n");
@@ -67,6 +69,8 @@ int main(int argc, char *argv[]) {
 			
 			else{
 				printf("\nResposta Errada\n\n");
+				printf("\n Resposta Certa era Tatooine\n");
+	
 			}
 			
 			printf("Pergunta 4\n");
@@ -81,6 +85,7 @@ int main(int argc, char *argv[]) {
 			
 			else{
 				printf("\nResposta Errada\n\n");
+				printf("\n Resposta Certa era Padawan\n");
 			}
 			
 			printf("Pergunta 5\n");
@@ -95,8 +100,9 @@ int main(int argc, char *argv[]) {
 			
 			else{
 				printf("\nResposta Errada\n\n");
+				printf("\n Resposta Certa era 1977\n");
 			}
-			system("cls");
+			
 			printf("Parabens voce finalizou o jogo de perguntas e respostas!! \n\nVoce acertou %d de %d perguntas \n\nQuer jogar novamente: s=sim n=nao\n",acertos,total);
 			scanf(" %c",&escolhapr);
 			system("cls");
