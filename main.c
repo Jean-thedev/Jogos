@@ -99,8 +99,8 @@ int main(int argc, char *argv[]) {
 			}
 			
 			else{
-				printf("\nResposta Errada\n\n");
-				printf("\n Resposta Certa era 1977\n");
+				printf("\nResposta Errada\n");
+				printf("\n Resposta Certa era 1977\n\n");
 			}
 			
 			printf("Parabens voce finalizou o jogo de perguntas e respostas!! \n\nVoce acertou %d de %d perguntas \n\nQuer jogar novamente: s=sim n=nao\n",acertos,total);
